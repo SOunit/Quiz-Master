@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &331476705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3602919181081769573, guid: bfb1f17e4051445809eddd61181ce264, type: 3}
+  m_PrefabInstance: {fileID: 3602919179537760719}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &389346465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -452,6 +457,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653630265}
   m_CullTransparentMesh: 1
+--- !u!1 &690325253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3602919181081769573, guid: bfb1f17e4051445809eddd61181ce264, type: 3}
+  m_PrefabInstance: {fileID: 1751143101}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &798805709
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,6 +699,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1126172340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3602919181081769573, guid: bfb1f17e4051445809eddd61181ce264, type: 3}
+  m_PrefabInstance: {fileID: 1714319111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1143986417
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,6 +889,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionText: {fileID: 798805711}
   question: {fileID: 11400000, guid: fb1a4308d98f0434fa7c61516163d6c3, type: 2}
+  answerButtons:
+  - {fileID: 331476705}
+  - {fileID: 1833548298}
+  - {fileID: 1126172340}
+  - {fileID: 690325253}
 --- !u!1 &1333909142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1394,6 +1414,11 @@ RectTransform:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3602919181081769572, guid: bfb1f17e4051445809eddd61181ce264, type: 3}
   m_PrefabInstance: {fileID: 3602919179537760719}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1833548298 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3602919181081769573, guid: bfb1f17e4051445809eddd61181ce264, type: 3}
+  m_PrefabInstance: {fileID: 389346465}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3602919179537760719
 PrefabInstance:

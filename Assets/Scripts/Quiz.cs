@@ -11,14 +11,18 @@ public class Quiz : MonoBehaviour
     [SerializeField]
     QuestionSO question;
 
-    // Start is called before the first frame update
+    [SerializeField]
+    GameObject[] answerButtons;
+
     void Start()
     {
         questionText.text = question.GetQuestion();
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            TextMeshProUGUI buttonText =
+                answerButtons[i].GetComponentInChildren<TextMeshProUGUI>();
+            buttonText.text = question.GetAnswer(i);
+        }
     }
 }
