@@ -13,7 +13,7 @@ public class Timer : MonoBehaviour
     //  public is not good approach but this game is small so use public here
     public bool loadNextQuestion;
 
-    public bool isAnsweringQuestion = false;
+    public bool isAnsweringQuestion;
 
     public float fillFraction;
 
@@ -61,12 +61,5 @@ public class Timer : MonoBehaviour
                 loadNextQuestion = true;
             }
         }
-
-        Debug
-            .Log(isAnsweringQuestion +
-            " : " +
-            timerValue +
-            " : " +
-            fillFraction);
     }
 }
