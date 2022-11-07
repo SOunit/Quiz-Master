@@ -11,7 +11,7 @@ public class EndScreen : MonoBehaviour
     ScoreKeeper scoreKeeper;
 
     // Start is cal%led before the first frame update
-    void Start()
+    void Awake()
     {
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
     }
